@@ -25,6 +25,7 @@ int y=loc.getY();
 JavascriptExecutor js=(JavascriptExecutor) driver;
 js.executeScript("window.scrollBy("+x+","+y+")");
 
+
 Thread.sleep(5000);
 mugs.click();
 
